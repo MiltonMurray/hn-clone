@@ -1,10 +1,10 @@
 $mobile-only: "only screen and (max-width : 768px)";
 
 #header {
-  background-color: #b92b27;
-  color: #fff;
-  padding: 6px 0;
-  line-height: 18px;
+  background-color: #ff6600;
+  color: #222222;
+  padding: 2px;
+  line-height: 12px;
   vertical-align: middle;
   position: relative;
   z-index: 1;
@@ -27,8 +27,8 @@ $mobile-only: "only screen and (max-width : 768px)";
 }
 
 .logo {
-  width: 50px;
-  padding: 3px 8px 0;
+  width: 25px;
+  padding: 8px 8px 8px;
 
   @media #{$mobile-only} {
     width: 45px;
@@ -41,10 +41,10 @@ h1 {
   display: inline-block;
   vertical-align:middle;
   margin: 0;
-  font-size: 16px;
+  font-size: 14px;
 
   a {
-    color: #fff;
+    color: #222222;
     text-decoration: none;
   }
 }
@@ -59,11 +59,12 @@ h1 {
 }
 
 .header-text {
+  font-family: Verdana, sans-serif;
+  padding-bottom: 18px;
   position: absolute;
   width: inherit;
-  height: 20px;
-  left: 10px;
-  top: 27px;
+  text-align: right;
+  top: 18px;
 
   @media #{$mobile-only} {
     top: 22px;
@@ -83,6 +84,8 @@ h1 {
 
 .header-nav {
   display: inline-block;
+  font-size: 12px;
+  
 
   @media #{$mobile-only} {
     float: right;
@@ -90,7 +93,7 @@ h1 {
   }
 
   a {
-    color: #fff;
+    color: #222222;
     text-decoration: none;
 
     &:hover {
